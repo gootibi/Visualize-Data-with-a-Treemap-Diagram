@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <title>FCC Treemap Diagram</title>
+</head>
+
+<body>
+    <h2 id="title">FCC Treemap Diagram - Movie Sales</h2>
+    <div id="description">Top 100 Highest Grossing Movies Grouped By Genre</div>
+    <div id="tooltip">
+        Tooltip
+    </div>
+    <svg id="canvas">
+
+    </svg>
+    <svg id="legend">
+        <g>
+            <rect class="legend-item" fill="orange"></rect>
+            <circle cx="30" cy="15" r="10" fill="orange"></circle>
+            <text x="45" y="20" fill="black">Action</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="coral"></rect>
+            <circle cx="30" cy="55" r="10" fill="coral"></circle>
+            <text x="45" y="60" fill="black">Adventure</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="khaki"></rect>
+            <circle cx="30" cy="95" r="10" fill="khaki"></circle>
+            <text x="45" y="100" fill="black">Comedy</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="lightgreen"></rect>
+            <circle cx="160" cy="15" r="10" fill="lightgreen"></circle>
+            <text x="175" y="20" fill="black">Drama</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="pink"></rect>
+            <circle cx="160" cy="55" r="10" fill="pink"></circle>
+            <text x="175" y="60" fill="black">Animation</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="lightblue"></rect>
+            <circle cx="160" cy="95" r="10" fill="lightblue"></circle>
+            <text x="175" y="100" fill="black">Family</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill="tan"></rect>
+            <circle cx="30" cy="135" r="10" fill="tan"></circle>
+            <text x="45" y="140" fill="black">Biography</text>
+        </g>
+    </svg>
+</body>
+<script defer src="./script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
